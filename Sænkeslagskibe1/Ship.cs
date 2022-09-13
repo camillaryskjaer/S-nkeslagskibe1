@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//Undgå at bruge øæ og å
 namespace Sænkeslagskibe1
 {
     internal abstract class Ship
@@ -17,7 +18,7 @@ namespace Sænkeslagskibe1
             get { return shipValue; }
             private set { shipValue = value; }
         } 
-
+//Hvorfor default constructor her?
         protected internal Ship()
         {
 
